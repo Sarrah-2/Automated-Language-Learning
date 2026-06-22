@@ -52,6 +52,17 @@ Dataset preprocessing included:
 
 **Architecture:** Transformer
 
+## Training Notebook
+
+The full model training process is available in `transformer_model_new.ipynb`. 
+This notebook includes:
+
+- Data loading and preprocessing
+- Vocabulary generation
+- Transformer model training
+- Loss and accuracy plots
+- Translation inference examples
+- 
 **Hyperparameters**
 
 * Embedding Dimension: 512
