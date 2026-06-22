@@ -213,14 +213,13 @@ viː geːt ɛs diːɐ̯ hɔʏtə
 
 ---
 
-## Authors
+## Author
 
-Sarrah Sadriwala
-Saumil Srivastava
-
+**Sarrah Sadriwala**
 B.Tech Electronics and Communication Engineering
 The LNM Institute of Information Technology, Jaipur
 
+GitHub: [Sarrah-2](https://github.com/Sarrah-2)
 ---
 
 ## License
