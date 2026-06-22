@@ -136,13 +136,16 @@ Download them from Google Drive:
 - **Training History (.pkl):** [Download](https://drive.google.com/file/d/1KHIiQiKdCuBQPNB12omjIFVRxs53T2pv/view?usp=sharing)
 
 After downloading, place both files **directly in the root project folder** (same level as `app.py`):
-
+```
 Automated-Language-Learning/
 ├── checkpoint.weights.h5   ← place here
 ├── training_history.pkl    ← place here
 ├── app.py
 └── ...
+
+```
 ---
+
 
 ## Running the Application
 
