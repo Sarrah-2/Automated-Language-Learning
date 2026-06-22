@@ -163,7 +163,8 @@ Automated-Language-Learning/
 Run the Streamlit application:
 
 ```
-streamlit run app/app.py
+streamlit run app.py
+
 ```
 
 Then open your browser at:
