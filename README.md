@@ -81,19 +81,29 @@ Dataset preprocessing included:
 
 ## Project Structure
 
-```
-Automated-Language-Learning
+Automated-Language-Learning/
 │
-├── app/                # Streamlit interface
-├── models/             # Transformer model architecture
-├── preprocessing/      # Tokenization and vocabulary scripts
-├── speech_modules/     # Pronunciation and evaluation modules
-├── templates/          # Web interface templates
+├── app.py                       # Streamlit web interface
+├── encoder.py                   # Transformer encoder block
+├── decoder.py                   # Transformer decoder block
+├── multiHeadAttention.py        # Multi-head attention mechanism
+├── scaledDotProduct.py          # Scaled dot-product attention
+├── casualMasking.py             # Causal masking for decoder
+├── PositionalEmbedding.py       # Positional encoding layer
+├── pronounciationIPA.py         # IPA transcription module
+├── tokenizer.py                 # Tokenizer utilities
+├── model_utils.py               # Model loading and helper functions
+├── interact.py                  # Interaction and inference logic
+├── live_server.py               # Live demo server
+├── live.html                    # Live interface template
+├── test.py                      # Testing script
+├── source_vocab_re.json         # English vocabulary file
+├── target_vocab_re.json         # German vocabulary file
+├── transformer_model_new.ipynb  # Model training notebook
 │
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-```
 
 ---
 
@@ -116,23 +126,22 @@ pip install -r requirements.txt
 
 ## Model Files
 
-The trained model files are large and therefore **not stored directly in this repository**.
+## Model Files
+
+The trained model files are large and not stored in this repository.
 
 Download them from Google Drive:
 
-**Model Weights (.h5)**
-https://drive.google.com/file/d/1OBWI1_ekf57GzKq-gbjUFY73kmEhQWHM/view?usp=sharing
+- **Model Weights (.h5):** [Download](https://drive.google.com/file/d/1OBWI1_ekf57GzKq-gbjUFY73kmEhQWHM/view?usp=sharing)
+- **Training History (.pkl):** [Download](https://drive.google.com/file/d/1KHIiQiKdCuBQPNB12omjIFVRxs53T2pv/view?usp=sharing)
 
-**Training History (.pkl)**
-https://drive.google.com/file/d/1KHIiQiKdCuBQPNB12omjIFVRxs53T2pv/view?usp=sharing
+After downloading, place both files **directly in the root project folder** (same level as `app.py`):
 
-After downloading, place them in the project directory:
-
-```
-weights/checkpoint.weights.h5
-training_history.pkl
-```
-
+Automated-Language-Learning/
+├── checkpoint.weights.h5   ← place here
+├── training_history.pkl    ← place here
+├── app.py
+└── ...
 ---
 
 ## Running the Application
