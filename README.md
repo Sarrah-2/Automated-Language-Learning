@@ -205,7 +205,7 @@ viː geːt ɛs diːɐ̯ hɔʏtə
 ![Translation](screenshot_2_translation.webp)
 
 ### Audio Input Mode
-![Audio](screenshot_3_audio_input.webp)
+![Audio](screenshot_3_audio.webp)
 
 ### Pronunciation Practice & Scoring
 ![Pronunciation](screenshot_4_pronunciation.webp)
