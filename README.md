@@ -80,7 +80,7 @@ Dataset preprocessing included:
 ---
 
 ## Project Structure
-
+```
 Automated-Language-Learning/
 │
 ├── app.py                       # Streamlit web interface
@@ -104,7 +104,7 @@ Automated-Language-Learning/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
+```
 ---
 
 ## Installation
