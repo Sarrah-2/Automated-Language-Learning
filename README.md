@@ -135,7 +135,6 @@ pip install -r requirements.txt
 
 ---
 
-## Model Files
 
 ## Model Files
 
