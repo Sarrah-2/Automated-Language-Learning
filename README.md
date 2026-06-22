@@ -6,6 +6,14 @@ The system translates **English sentences into German** using a **Transformer-ba
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-enabled-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
+
+---
+
 ## Features
 
 * English → German translation using **Transformer architecture**
