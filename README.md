@@ -199,17 +199,18 @@ viː geːt ɛs diːɐ̯ hɔʏtə
 ## Screenshots
 
 ### Home Interface
-![Home](screenshot_1_home.png)
+![Home](screenshot_1_home.webp)
 
 ### Translation with IPA
-![Translation](screenshot_2_translation.png)
+![Translation](screenshot_2_translation.webp)
 
 ### Audio Input Mode
-![Audio](screenshot_3_audio_input.png)
+![Audio](screenshot_3_audio_input.webp)
 
 ### Pronunciation Practice & Scoring
-![Pronunciation](screenshot_4_pronunciation.png)
+![Pronunciation](screenshot_4_pronunciation.webp)
 
+---
 
 ## Limitations
 
